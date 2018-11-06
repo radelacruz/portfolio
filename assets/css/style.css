@@ -16,7 +16,7 @@ body{
 
 h1{
 	font-size: 30px; /*changed 50px to 30px*/
-	background-color: #333;/*off black*/
+	background-color: #ffb6c1; /*#333;*//*off black*/
 	text-transform: uppercase;
 	margin-bottom: 0;
 	letter-spacing: 3px;/*space between letters, to make it visible and appealing,format only*/
@@ -27,7 +27,7 @@ h2{
 	font-size: 18px;/*added by zelle*/
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	color: pink;
+	color: #f2f2f2;
 }
 
 /*target ID using "#"*/
@@ -46,8 +46,9 @@ h2{
 .bio{
 	width: 100%;
 	font-size: 18px;
+	color: pink;
 	line-height: 1.5;
-	background-color: rgba(51, 51, 51, .80);/*alpha- kung gaano ka transparent*/
+	background-color: rgba(51, 51, 51, .50);/*alpha- kung gaano ka transparent*/
 	/*background-color: #333;
 	opacity: 0.5;*//*children and element are affected of opacity*/
 	text-align: justify;/*added by raz*/
