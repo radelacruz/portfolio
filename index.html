@@ -2,33 +2,256 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title> Razelle Ann Dela Cruz | Web Developer Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-	<!-- give access papunta sa library ni google font -->
+	<title>Razelle Ann Dela Cruz | Web Portfolio</title>
 
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Mali|Poor+Story" rel="stylesheet">
+	<!-- font awesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+	<!-- font-family: 'Kalam', cursive; -->
+
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+	<!-- font-family: 'Sigmar One', cursive; -->
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!-- font-family: 'Pacifico', cursive; -->
+
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<!-- font-family: 'Gloria Hallelujah', cursive; -->
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- external link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">	
 
 	<!-- fav icon -->
-	<link rel="icon" type="image/gif/png" href="assets/images/fav.png">
+	<link rel="icon" type="image/gif/png" href="assets/images/logo-pink.png">
 
-	<!-- external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class="container">
 
-		<img id="me" src="assets/images/me.jpeg">
+	<nav id="navbar" class="flex-column navbar navbar-expand-lg navbar-dark col-lg-2"> 
+		<img src="assets/images/logo-pink.png" class="logo">
 
-		<h1>razelle ann dela cruz</h1>
-		<h2>full stack web developer</h2>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			
+		<div id="navbar-nav" class=" collapse navbar-collapse">
+			<ul class="navbar-nav flex-column ml-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#experience">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#project">Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#resume">Resume</a>
+				</li>
+			</ul>
+		</div> <!-- end of navbar-nav -->
+	</nav> <!-- end of nav -->
 
-		<p class="bio">
-			Razelle Ann Dela Cruz is a Full Stack Web Developer, a Tuitt Coding Bootcamp trainee. She is a BSECE graduate and worked as Software Tester or QA for almost 7 years in a Japanese IT Company.
-		</p>
-		
+	<div class="container col-lg-10 col-12	offset-lg-2">
+		<div id="home" class="jumbotron">
+			<p class="lead">Hello! I'm</p>
+			<hr class="my-3">
+			<h1 class="display-4">Razelle Ann Dela Cruz</h1>
+			<hr class="my-3">
+			<p class="lead">and I'm a Full-Stack Web Developer</p>
 
-	</div><!-- end of container -->
+			<div class="down">
+				<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+			</div>
+		</div> <!-- end of jumbotron -->
+		<div class="row  main">
+			<div id="about" class="right">
+				<h2>About Me</h2>
+				<div>
+					<img src="assets/images/image.gif">
+				</div>
+				
+
+				<div class="about">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+
+			</div>
+
+			<div id="experience" class="right">
+				<h2>Experience</h2>
+
+				<div class="experience">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div id="project" class="row right">
+				<div class="project-title  col-lg-10 ">
+					<h2>Project</h2>
+				</div>
+				
+				<div class="project-1  col-lg-3 ">
+					<h3>Capstone1</h3>
+					<img class="project-1-img" src="assets/images/project.jpg">
+					<a href="#" class="project-1-img-link"><i class="fas fa-folder "></i></a>
+				</div>
+
+				<div class="project-1  col-lg-3 ">
+					<h3>Capstone2</h3>
+					<img class="project-1-img" src="assets/images/project.jpg">
+					<a href="#" class="project-1-img-link"><i class="fas fa-folder "></i></a>
+				</div>
+
+				<div class="project-1  col-lg-3 ">
+					<h3>Capstone3</h3>
+					<img class="project-1-img" src="assets/images/project.jpg">
+					<a href="#" class="project-1-img-link"><i class="fas fa-folder "></i></a>
+				</div>
+			</div>
+
+
+			<div id="contact" class="row right">
+
+				<div class="contact">
+					<h2>Contact</h2>
+				</div>
+
+				<div class="contact-1">					
+				</div>
+
+				<div class="contact-2">
+
+					<form>Have a question or want to work together?
+						<input class="name" type="text" name="name" placeholder="Name">
+						<input class="email" type="text" name="email" placeholder="Enter your email">
+						<textarea	class="your-message" placeholder="Your Message"></textarea>
+						<button>SUBMIT</button>
+					</form>
+					
+				</div>
+
+				<div class="contact-3">
+					<a target="_blank" href="https://twitter.com/razelleanndc"><i class="fab fa-twitter"></i></a>
+					<a target="_blank" href="https://facebook.com/razelleanndc"><i class="fab fa-facebook"></i></a>
+					<a target="_blank" href="https://instagram.com/razelleanndc"><i class="fab fa-instagram"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/in/razelle-ann-dela-cruz-876990b8"><i class="fab fa-linkedin"></i></a>
+					<a target="_blank" href="mailto:razelleanndelacruz@gmail.com"><i class="fas fa-envelope"></i></a>
+
+
+				</div>
+
+			</div>
+
+			<div id="resume" class="right">
+
+				<div class="experience">
+					<button class="resume">Download</button>
+					<small>Click to Download Resume</small>
+
+				</div>
+			</div>
+
+		</div> <!-- end of main row -->
+
+		<div class="row footer col-lg-12">
+			<small>Copyright &copy; <span>Razelle Ann Dela Cruz | 2018</span></small>
+
+		</div> <!-- end of footer row -->
+
+	</div> <!-- end of container-->
+
+	<div class="container-fluid">
+
+	</div> <!-- end of container-fluid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 </html>

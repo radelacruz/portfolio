@@ -1,0 +1,258 @@
+<div id="leftside">
+    <ul>
+      <li class="twitter"><a target="_blank" href="https://twitter.com/Mockplus"><i class="fa fa-twitter jssocials-share-logo"></i></a></li>
+      <li class="facebook "><a target="_blank" href="https://www.facebook.com/Mockplus-208416746176601/"><i class="fa fa-facebook jssocials-share-logo"></i></a></li>
+      <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/mockplus"><i class="fa fa-linkedin jssocials-share-logo"></i></a></li>
+      <li class="google"><a target="_blank" href="https://plus.google.com/u/0/118128648923592907971"><i class="fa fa-google jssocials-share-logo"></i></a></li>
+      <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCPfwlnVE9P1G0Vm8e9o67Mw"><i class="fa fa-youtube jssocials-share-logo"></i></a></li>
+    </ul>
+  </div>
+
+
+
+.blog #leftside {
+    position: fixed;
+    top: 50%;
+    margin-top: -115px;
+    width: auto;
+    z-index: 99999;
+    text-align: center;
+    left: 11px;
+}
+-----------------------------
+<aside class="site-sidebar">
+      <div class="site-sidebar-inner">
+        <a href="/" class="person">
+          <div class="person-avatar">
+            <img src="/images/avatar.56d5180e.png" alt="" class="avatar">
+          </div>
+          <div class="person-content">
+            <h1 class="person-title">Jack Tomaszewski</h1>
+            <h2 class="person-subtitle">Full-stack Web developer</h2>
+          </div>
+        </a>
+
+        <nav class="block main-navigation">
+          <div class="navigation-extend-bar">
+            <div class="social-icons">
+              <a href="mailto:jacek@jtom.me" class="button button-icon" title="mail: jacek@jtom.me">
+  <i class="fa fa-envelope"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/jtompl" class="button button-icon" title="linkedin: jtompl">
+  <i class="fa fa-linkedin-square"></i>
+</a>
+
+<a href="https://github.com/jtomaszewski" class="button button-icon" title="github: jtomaszewski">
+  <i class="fa fa-github-square"></i>
+</a>
+
+<a href="https://facebook.com/jtomaszewski" class="button button-icon" title="facebook: jtomaszewski">
+  <i class="fa fa-facebook-square"></i>
+</a>
+
+<a href="https://twitter.com/jtompl" class="button button-icon" title="twitter: @jtompl">
+  <i class="fa fa-twitter-square"></i>
+</a>
+
+
+<!-- <a href="https://jtom.me/feed/blog.xml" title="Subscribe to Blog RSS feed">
+  <i class="fa fa-rss-square"></i>
+</a>
+ -->
+
+            </div>
+
+            <a href="#" class="navigation-extend-button js-extend-main-navigation">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <div class="navigation-extendable">
+            <ul>
+              <li class="current"><a href="/portfolio/">Portfolio</a></li>
+              <li class=""><a href="/skills-and-offer/">Skills &amp; offer</a></li>
+              <li class=""><a href="/contact/">Contact me</a></li>
+            </ul>
+            <ul>
+              <!-- <li class=""><a href="/about-me/">About me</a></li> -->
+              <!-- <li class=""><a href="/blog">Tech blog</a></li> -->
+              <li class=""><a href="/cv/">My CV</a></li>
+              <li class=""><a href="/talks/">My talks</a></li>
+              <li><a href="https://medium.com/@jtomaszewski" target="_blank">Personal blog</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="block block-social">
+          <div class="block-title">Get in touch</div>
+          <div class="block-content">
+            <div class="social-icons">
+              <a href="mailto:jacek@jtom.me" class="button button-icon" title="mail: jacek@jtom.me">
+  <i class="fa fa-envelope"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/jtompl" class="button button-icon" title="linkedin: jtompl">
+  <i class="fa fa-linkedin-square"></i>
+</a>
+
+<a href="https://github.com/jtomaszewski" class="button button-icon" title="github: jtomaszewski">
+  <i class="fa fa-github-square"></i>
+</a>
+
+<a href="https://facebook.com/jtomaszewski" class="button button-icon" title="facebook: jtomaszewski">
+  <i class="fa fa-facebook-square"></i>
+</a>
+
+<a href="https://twitter.com/jtompl" class="button button-icon" title="twitter: @jtompl">
+  <i class="fa fa-twitter-square"></i>
+</a>
+
+
+<!-- <a href="https://jtom.me/feed/blog.xml" title="Subscribe to Blog RSS feed">
+  <i class="fa fa-rss-square"></i>
+</a>
+ -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="block block-blog">
+          <div class="block-title">
+            Recently on my blog
+            <!-- <a href="https://medium.com/feed/@jtomaszewski" title="Subscribe to RSS feed">
+              (RSS)
+            </a> -->
+          </div>
+          <div class="block-content">
+            <ul class="posts-list">
+              <li>
+                <a href="https://medium.com/@jtomaszewski/how-to-write-good-composable-and-pure-components-in-angular-2-1756945c0f5b">
+                  <div class="post-title">How to write good, composable and pure components in Angular 2+</div>
+                  <div class="post-date">Jun 7, 2018</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@jtomaszewski/mastering-the-angular-performance-by-dropping-the-magic-of-change-detector-2b605b444b04">
+                  <div class="post-title">Mastering the Angular performance — by dropping the magic of Change Detector</div>
+                  <div class="post-date">May 17, 2018</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@jtomaszewski/coding-is-not-an-art-its-engineering-e95c2eead1ea">
+                  <div class="post-title">Code is not art, it’s engineering</div>
+                  <div class="post-date">Apr 19, 2018</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@jtomaszewski/keep-your-code-clean-forever-65c71f7f2df">
+                  <div class="post-title">Keep your code clean forever</div>
+                  <div class="post-date">Apr 5, 2018</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@jtomaszewski/your-data-belongs-to-facebook-not-you-798246935b78">
+                  <div class="post-title">Your data belongs to Facebook, not you</div>
+                  <div class="post-date">Mar 20, 2018</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@jtomaszewski/you-are-not-better-than-anyone-ac5aa57b039e">
+                  <div class="post-title">"You are not better than anyone..."</div>
+                  <div class="post-date">Mar 10, 2018</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+
+.person .person-avatar .avatar {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+}
+img {
+    border: 0;
+}
+
+.site-sidebar .site-sidebar-inner {
+    position: relative;
+    height: 100%;
+    overflow: scroll;
+    padding: 45px 40px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.site-sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    width: 25%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(145,13,13,.8);
+}
+
+
+
+element.style {
+}
+
+.site-sidebar .site-sidebar-inner {
+    position: relative;
+    height: 100%;
+    overflow: scroll;
+    padding: 45px 40px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.site-sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    width: 25%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    background-color: rgba(145,13,13,.8);
+}
+body {
+    font: 16px/1.6 Roboto,Helvetica,sans-serif;
+    font-weight: 300;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    color: #fff;
+    background: #a51a1a;
+}
