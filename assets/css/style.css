@@ -6,8 +6,14 @@
 	/*font-family: 'Sigmar One', cursive*/
 	/*text-align: center;*/
 	/*font-family: 'Pacifico', cursive;*/
-	font-family: 'Gloria Hallelujah', cursive;
+	/*font-family: 'Gloria Hallelujah', cursive;*/
+	font-family: 'Federant', cursive;
 	color: white;
+}
+html{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -20,6 +26,9 @@ body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 }
+h2{
+	height: 100%;
+}
 #navbar{
 	background-image: url(../images/bg.jpeg);
 	background-repeat: no-repeat;
@@ -29,6 +38,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	scroll-behavior: none;
 }
 [class*="col"]{
 	border: 3px groove grey;/*transparent*/
@@ -48,6 +58,10 @@ body{
 
 }
 
+#home{
+	/*width: 100%;*/
+}
+
 .jumbotron{
 	background-color: transparent;
 	height: 100vh;
@@ -57,6 +71,17 @@ body{
 	position: relative;
 	padding-top: 10%;
 	border: 3px solid violet;
+
+}
+.jumbotron > h1{
+	padding: 40px;
+	font-size: 80px;
+	text-align: center;
+}
+.jumbotron > p{
+	padding: 40px;
+	font-size: 30px;
+	text-align: center;
 }
 .container{
 	border: 2px solid red;
@@ -110,7 +135,7 @@ body{
 	width: 100%;
 	border: 2px solid green;
 	background-color: skyblue;
-	margin-left: 0.1em;
+	/*margin-left: 0.1em;*/
 }
 #contact{
 	height: 100vh;
@@ -118,11 +143,74 @@ body{
 	border: 2px solid green;
 	background-color: skyblue;
 }
+.contact{
+	height: 50px;
+}
+.contact-1{
+	height: 50vh;
+}
+form{
+	/*margin: 50px;*/
+	border: 3px groove white;
+	height: 280px;
+	margin-top: 10px;
+	background-color: pink;
+	border-radius: 10px;
+	padding: 10px;
+}
+input{
+	width: 100%;
+	height: 25px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+textarea,
+form > button{
+	width: 100%;
+	/*height: 100px;*/
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+form > button{
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: green;
+	color: white;
+}
+.contact-2{
+	width: 50%;
+
+}
 #resume{
 	height: 100vh;
 	width: 100%;
 	border: 2px solid green;
 	background-color: skyblue;
+	position: relative;
+}
+.resume{
+	position: absolute;
+	bottom: 50%;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*background-color: rgba(97,203,217, 1);*/
+	/*padding: 10px 30px;*/
+}
+.resume > button{
+	border: 4px groove white;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: pink;
+	font-size: 40px;
 }
 .project-title{
 	width: 100%;
@@ -145,4 +233,50 @@ body{
 	/*width: 100%;*/
 	/*height: 100px;*/
 	/*text-decoration: none;*/
+}
+
+/* Style all font awesome icons */
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 100%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+
+}
+/* Facebook */
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+.fa-gitlab{
+	background: black;
+	color: #ff5500;;
+}
+.fa-github{
+	background: white;
+	color: black;;
 }
