@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-	<title>Razelle Ann Dela Cruz | Web Portfolio</title>
+	<title>Web Developer Portfolio | Razelle Ann Dela Cruz</title>
 
 	<!-- font awesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -27,7 +27,10 @@
 	<!-- font-family: 'Federant', cursive; -->
 
 	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 	<!-- external link -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -44,215 +47,166 @@
 </head>
 <body>
 
-	<nav id="navbar" class="flex-column navbar navbar-expand-lg navbar-dark col-lg-2"> 
-		<img src="assets/images/logo-pink.png" class="logo">
+	<div id="home" class="container-fluid px-0 py-0">
+		
+		<section id="jumbotron" class="jumbotron">
+			<p class="lead text-center">Hello!</p>
+			<h1 id="landing" class="text-center animated jackInTheBox">I'm ZELLE</h1>
+			<p class="text-center lead">A Full-Stack Web Developer</p>
+			<hr>
+			<div  class="social">
+				<a target="_blank" href="https://www.twitter.com/razelleanndc" class="button button-icon" title="twitter: razelleanndc">
+					<i class="fa fa-twitter-square"></i>
+				</a>
+				<a target="_blank" href="https://www.facebook.com/razelleanndc" class="button button-icon" title="facebook: razelleanndc">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+				<a target="_blank" href="https://www.instagram.com/razelleanndc" class="button button-icon" title="instagram: razelleanndc">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/razelle-ann-dela-cruz-876990b8/" class="button button-icon" title="linkedin: razelle ann dela cruz">
+					<i class="fa fa-linkedin-square"></i>
+				</a>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+				<a target="_blank" href="https://github.com/radelacruz" class="button button-icon" title="github: radelacruz">
+					<i class="fa fa-github-square"></i>
+				</a>
+				<a target="_blank" href="https://gitlab.com/razelle" class="button button-icon" title="gitlab: razelle">
+					<i class="fa fa-gitlab"></i>
+				</a>
+				<a target="_blank" href="mailto:razelleanndelacruz@gmail.com" class="button button-icon" title="email: razelleanndelacruz@gmail.com">
+					<i class="fas fa-envelope"></i>
+				</a>
+			</div>
+		</section>
+
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top px-5">
+			<img class="img-fluid logo" src="assets/images/logo-pink.png">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">HOME</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">PROJECT</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#about">ABOUT</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+
+		<div id="portfolio" class="container py-3 mb-3">
+			<h3 class="display-3 text-center">My Portfolio</h3>
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="card">
+						<img class="img-fluid" src="assets/images/winterwonderland.png">
+						<div class="card-body">
+							<h3 class="card-title">Winter Wonderland</h3>
+							<p>Winter Wonderland is an Ice Cream Website.</p>
+							<button class="btn btn-outline-primary btn-block">
+								<a target="_blank" href="https://radelacruz.github.io/winter-wonderland/">View</a>
+							</button>
+						</div> <!-- card-body -->
+					</div> <!-- end card -->
+				</div><!--  end col -->
+
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="card">
+						<img class="img-fluid" src="http://lorempixel.com/400/200">
+						<div class="card-body">
+							<h3 class="card-title">Capstone2</h3>
+							<p>This text describes my website</p>
+							<button class="btn btn-outline-primary btn-block">
+								<a target="_blank" href="#">View</a>
+							</button>
+						</div> <!-- card-body -->
+					</div> <!-- end card -->
+				</div><!--  end col -->
+
+				<div class="col-12 col-md-4 col-lg-4">
+					<div class="card">
+						<img class="img-fluid" src="http://lorempixel.com/400/200"> <!-- http://lorempixel.com/400/200 -->
+						<div class="card-body">
+							<h3 class="card-title">Capstone3</h3>
+							<p>This text describes my website</p>
+							<button class="btn btn-outline-primary btn-block">
+								<a target="_blank" href="#">View</a>
+							</button>
+						</div> <!-- card-body -->
+					</div> <!-- end card -->
+				</div><!--  end col -->
+
+			</div> <!-- end of row -->
+		</div> <!-- end of section port -->
+
+
+		<section id="about" class="container py-3 mb-3">
+			<h3 class="display-3 text-center">About the Developer</h3>
+
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-4">
+					<img class="img-fluid" src="assets/images/me.jpeg">
+				</div> <!-- end of left side -->
+				<div class="col-12 col-md-8 col-lg-8">
+					<p>こんにちは！　私の名前はDela Cruz, Razelle Annと申します。ゼールと呼んでください。 二十八歳(さい)です。 フィリピンのパシぐに住んでいます。 どくしんです。 学歴(がくれき)はElectronics and Communication Engineering を勉強して卒業(そつぎょう)しました。Web Developerをなりたいですから、今、私はTuiit Coding Bootcampのけんしゅうせいです。仕事の経験(けいけん)は六年間(かん)半ぐらいDenso TenのAutomotive Electronics Department で単体検査のソフトテスターを働きました。 日本はしずかできれいなところだと思います。そして、私の日本語の技術(ぎじゅつ)が上手になりたいですから、日本で働きたいです。 私の仕事は単体検査のソフトテスターです。タスクはソースに不具合を見ます。</p>
+					<p>DENSO TENのルールによる仕様書(しようしょ)はいつも正(ただ)しいです。そして、ソースと仕様書(しようしょ)は同(おな)でなければなりません。 ソースは不具合があったら、原因(げんいん)を調(しら)べて、お客(きゃく)さんに知(し)らせます。 仕事流(なが)れについて、仕様書(しようしょ)の分析(ぶんせき)したり、Pattern作成(さくせい)したり、入力値と理論値(りろんち)は手動(しゅどう)で設定(せってい)したり、 出力値はデバーガで自動生成(じどうせいせい)したりします。</p>
+					
+				</div> <!-- end of right side -->
+			</div> <!-- end of row -->
 			
-		<div id="navbar-nav" class=" collapse navbar-collapse">
-			<ul class="navbar-nav flex-column ml-auto">
-				<li class="nav-item">
-					<a class="nav-link active" href="#home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#experience">Experience</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#project">Project</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#resume">Resume</a>
-				</li>
-			</ul>
-		</div> <!-- end of navbar-nav -->
-	</nav> <!-- end of nav -->
+		</section>
 
-	<div class="container col-lg-10 col-12	offset-lg-2">
-		<div id="home" class="row jumbotron col-lg-12 col-12	">
-			<p class="lead">Hello! I'm</p>
-			<!-- <hr class="my-3"> -->
-			<h1 class="display-4">Razelle Ann Dela Cruz</h1>
-			<!-- <hr class="my-3"> -->
-			<p class="lead">and I'm a <strong>Full-Stack Web Developer</strong></p>
+		<section id="contact">
+			<p class="leadr">Have a question or want to work together?</p>
+			<div  class="social-contact">
+				<a target="_blank" href="https://www.twitter.com/razelleanndc" class="button button-icon" title="twitter: razelleanndc">
+					<i class="fa fa-twitter-square"></i>
+				</a>
+				<a target="_blank" href="https://www.facebook.com/razelleanndc" class="button button-icon" title="facebook: razelleanndc">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+				<a target="_blank" href="https://www.instagram.com/razelleanndc" class="button button-icon" title="instagram: razelleanndc">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/razelle-ann-dela-cruz-876990b8/" class="button button-icon" title="linkedin: razelle ann dela cruz">
+					<i class="fa fa-linkedin-square"></i>
+				</a>
 
-			<div class="down">
-				<a href="#about"><i class="fas fa-angle-double-down"></i></a>
-			</div>
-		</div> <!-- end of jumbotron -->
-		<div class="row  main">
-			<div id="about" class="right">
-				<h2>About Me</h2>
-				<div>
-					<img src="assets/images/image.gif">
-				</div>
-				
-
-				<div class="about">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-
+				<a target="_blank" href="https://github.com/radelacruz" class="button button-icon" title="github: radelacruz">
+					<i class="fa fa-github-square"></i>
+				</a>
+				<a target="_blank" href="https://gitlab.com/razelle" class="button button-icon" title="gitlab: razelle">
+					<i class="fa fa-gitlab"></i>
+				</a>
+				<a target="_blank" href="mailto:razelleanndelacruz@gmail.com" class="button button-icon" title="email: razelleanndelacruz@gmail.com">
+					<i class="fas fa-envelope"></i>
+				</a>
 			</div>
 
-			<div id="experience" class="right">
-				<h2>Experience</h2>
+		</section>
 
-				<div class="experience">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</div>
+		<footer class="footer">
+			<p class="text-center p-3">&copy; Razelle Ann Dela Cruz | Tuitt Coding Bootcamp</p>
+		</footer>
 
-			<div id="project" class="row right">
-				<div class="project-title  col-lg-12 ">
-					<h2>Project</h2>
-				</div>
-				
-				<div class="project-1  col-lg-3 ">
-					<h3>Capstone1</h3>
-					<img class="project-1-img" src="assets/images/project.jpg">
-					<a href="#" class="project-1-img-link"><i class="fas fa-folder "></i></a>
-				</div>
 
-				<div class="project-1  col-lg-3 ">
-					<h3>Capstone2</h3>
-					<img class="project-1-img" src="assets/images/project.jpg">
-					<a href="#" class="project-1-img-link"><i class="fas fa-folder "></i></a>
-				</div>
 
-				<div class="project-1  col-lg-3 ">
-					<h3>Capstone3</h3>
-					<img class="project-1-img" src="assets/images/project.jpg">
-					<a href="#" class="project-1-img-link"><i class="fas fa-folder "></i></a>
-				</div>
-			</div>
 
 
-			<div id="contact" class="row right  col-lg-12 col-12">
-
-				<div class="contact  col-lg-12 col-12">
-					<h2>Contact</h2>
-				</div>
-
-				<div class="contact-1  col-lg-8 col-12	offset-lg-2">
-					<legend>Have a question or want to work together?</legend>
-					<form>
-						<input class="name" type="text" name="name" placeholder="Name">
-						<input class="email" type="text" name="email" placeholder="Enter your email">
-						<textarea	class="your-message" placeholder="Your Message"></textarea>
-						<button>SUBMIT</button>
-					</form>
-				</div>
-
-				<div class="contact-2  col-lg-1">
-					<a target="_blank" href="https://twitter.com/razelleanndc" class="fa fa-twitter"></a>
-					<a target="_blank" href="https://facebook.com/razelleanndc" class="fa fa-facebook"></a>
-					<a target="_blank" href="https://www.linkedin.com/in/razelle-ann-dela-cruz-876990b8" class="fa fa-linkedin"></a>
-					<a target="_blank" href="mailto:razelleanndelacruz@gmail.com" class="fa fa-google"></a>
-					<a target="_blank" href="https://gitlab.com/razelle" class="fa fa-gitlab"></a>
-					<a target="_blank" href="https://github.com/razelleann" class="fa fa-github"></a>
-				</div>
-
-			</div>
-
-			<div id="resume" class="right">
-
-				<div class="resume">
-					<button >Download</button>
-					<h3>Click to Download Resume</h3>
-
-				</div>
-			</div>
-
-		</div> <!-- end of main row -->
-
-		<div class="row footer col-lg-12">
-			<small>Copyright &copy; <span>Razelle Ann Dela Cruz | 2018</span></small>
-
-		</div> <!-- end of footer row -->
-
-	</div> <!-- end of container-->
-
-	<div class="container-fluid">
-
-	</div> <!-- end of container-fluid -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	</div>
 
 </body>
 </html>
