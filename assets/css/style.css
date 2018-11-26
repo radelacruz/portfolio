@@ -31,7 +31,20 @@ body, html {
 
 .navbar{
 	/*height: 100vh;*/
-	background-color: #FE938C;
+	background-color: rgba(254, 147, 140 ,0.5);
+}
+.navbar:hover{
+	/*height: 100vh;*/
+	background-color: rgba(254, 147, 140 ,1);
+
+}
+
+
+#navbar-nav a:hover{
+    text-decoration-line: underline;
+    font-weight: bold;
+    color: white;
+    transform: scale(1.2);
 }
 
 .footer{
@@ -40,12 +53,15 @@ body, html {
 
 }
 .logo{
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
 	border: 2px groove grey;
 
+
 }
+
+
 /*#port-jumbo{
 	border: 8px solid #007bff;
 	border-radius: 10px;
@@ -76,13 +92,17 @@ body, html {
 	text-decoration: none;
 	color: #f2f2f2;
 }*/
+
 #jumbotron{
+	height: 100vh;
+}
+.jumbotron{
 	background-color: #FE938C;
 	height: 70vh;
 	border-radius: 0;
 	margin-bottom: 0;
 	padding: 6%;
-	margin: 15vh 10vw;
+	margin: 10vh 10vw;
 	border-radius: 20px;
 	border: 5px groove #FE938C;
 }
@@ -90,8 +110,11 @@ body, html {
 	color: white;
 }
 
-#jumbotron a{
+.jumbotron a{
 	color: #f2f2f2;
+	/*margin-right: 5px;*/
+	/*width: 20px;*/
+	/*height: 20px;*/
 }
 #landing{
 	color: #f2f2f2;
@@ -108,6 +131,7 @@ body, html {
 	margin-top: 50px;
 	border-radius: 10px;
 	border: 5px  groove #FE938C;
+	height: 400px;
 }
 
 .social{
@@ -122,10 +146,10 @@ body, html {
 
 }
 .card{
-	height: 400px;
+	height: 250px;
 }
 .card img{
-	height: 200px;
+	height: 150px;
 }
 
 .card .btn:hover{
@@ -150,8 +174,8 @@ body, html {
 }
 
 #about img{
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 	border: 3px groove #FE938C;
 	padding-right: 0;
@@ -159,4 +183,13 @@ body, html {
 
 h3,p{
 	font-size: 16px;
+}
+
+#img{
+	height: 100%;
+	width: 70%;
+	/*float: right;*/
+	margin: 0;
+	padding: 10px
+	;
 }
