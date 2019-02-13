@@ -15,7 +15,8 @@
 
 
 body{
-	background-color: #ffac98;
+	/*background-color: #ffac98;*/
+	background-color: #fec9ba;
 }
 #section{
 	margin: 10vh 20vh 10vh 20vh;
@@ -51,6 +52,14 @@ strong{
 	text-shadow: 2px 2px 4px #c3a663;
 	font-family: 'Playball', cursive;
 	font-size: 60px;
+	margin: 0 !important;
+	padding: 5px !important;
+}
+h2{
+	color: black;
+	text-shadow: 2px 2px 4px #c3a663;
+	font-family: 'Playball', cursive;
+	font-size: 80px;
 	margin: 0 !important;
 	padding: 5px !important;
 }
@@ -251,11 +260,11 @@ strong{
 	/*height: 400px;*/
 	/*padding: 50px;*/
 	/*margin: 20px;*/
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 }
 
 #portfolio_home{
-	height: 60vh;
+	height: 82vh;
 	background-image: url(../images/portfolio_home.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -264,12 +273,15 @@ strong{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	align-self: center;
 
 }
 
 
-#portfolio_home_jumbo{
-	height: 60vh;
+#home_jumbo{
+	padding-top: 20vh;
+	margin-top: 18vh;
+	height: 80vh;
 	background-color: rgba(51,51,51, 0.05);
 	border-radius: 0;
 }
@@ -423,7 +435,7 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 #portfolio_content{
-	padding: 40px 20px;
+	padding: 60px 20px;
 }
 
 .btn-OK{
@@ -451,4 +463,87 @@ a:hover, a:focus {
 	font-size: 20px;
 	color: black;
 	text-shadow: 1px 1px 3px #c3a663;
+}
+
+.img-landing img{
+	height: 200px;
+
+}
+
+#footer{
+	border-top: 3px solid #c3a663;
+	/*background-color: #2f2f2f;*/
+	background-color: #ffac98;
+	/*border-bottom: 3px solid #c3a663;*/
+	color: #c3a663;
+	padding: 20px;
+	height: 35vh;
+}
+#disclaimer a{
+	text-decoration: none;
+	color: black;
+	/*color: white;*/
+	font-weight: bolder;
+
+}
+#social a{
+	text-decoration: none;
+	color: white;
+}
+#social{
+	padding-bottom: 10px;
+}
+/* Style all font awesome icons */
+.fa {
+	font-size: 14px;
+	width: 24px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 100%;
+	padding: 7px;
+	height: 24px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+
+}
+/* Facebook */
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.footer-hr{
+	background-color: #c3a663 !important;
+	margin: 20px 40px;
+}
+
+#back {
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	z-index: 1;
+	color: #c3a663;
+	text-shadow: 10px 10px 5px black;
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+small{
+	width: 100%;
 }
