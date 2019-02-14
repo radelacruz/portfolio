@@ -277,7 +277,19 @@ h2{
 
 }
 
+#aboutme_home{
+	height: 82vh;
+	background-image: url(../images/aboutme_home.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	align-self: center;
 
+}
 #home_jumbo{
 	padding-top: 20vh;
 	margin-top: 18vh;
@@ -546,4 +558,9 @@ a:hover, a:focus {
 }
 small{
 	width: 100%;
+}
+
+#about_content{
+	height: 100vh;
+	background-color: white;
 }
