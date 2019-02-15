@@ -29,7 +29,7 @@
 	<!-- font-family: 'Playball', cursive; -->
 
 	<!-- bootstrap css -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 	
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -54,6 +54,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
 
 </head>
 <body>
@@ -100,8 +106,178 @@
 		</div>
 	</div>
 
-	<div class="about_content">
-		
+	<div id="about_content" class="container">
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs  nav-fill" id="myTab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="aboutme-tab" data-toggle="tab" href="#aboutme" role="tab" aria-controls="aboutme" aria-selected="true">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="skills-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="false">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Background & Experienced</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="certification-tab" data-toggle="tab" href="#certification" role="tab" aria-controls="certification" aria-selected="false">Certifications & Trainings</a>
+			</li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div class="tab-pane active" id="aboutme" role="tabpanel" aria-labelledby="aboutme-tab">
+				<h3 class="text-center">About Me</h3>
+					<section id="about" class="container p-2 m-3">
+						<div class="row">
+							<div id="img" class="col-sm-2 p-0 m-0 text-center">
+								<img class="img-fluid" src="assets/images/me.jpeg" >
+							</div> <!-- end of left side -->
+							<div class="col-sm-10">
+								<p> Hello! My name is <strong class="wow fadeInDown" data-wow-duration="4s">Razelle Ann Dela Cruz</strong>. You can call me "Zelle" or "Azel". 
+								</p>
+							</div> <!-- end of right side -->
+						</div> <!-- end of row -->
+
+					</section>
+			</div>
+			<div class="tab-pane" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+				<h3 class="text-center">Skills</h3>
+					<section id="myskills" class="container p-2 m-3">
+						<div class="row">
+							<div class="col-sm-6">
+								<h4>Technical Skills</h4>
+								<ul>
+									<li>•	Front End: HTML, CSS </li>
+									<li>•	Database: MySQL</li>
+									<li>•	Back End: Jquery, Php, Java Script </li>
+									<li>•	Frameworks: Laravel </li>
+									<li>•	Version Control System: SVN, Github, Gitlab </li>
+									<li>•	Quality Assurance: Unit Testing of Embedded Software, Black Box Testing, Model Based Design Testing </li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<h4>Other Skills</h4>
+								<ul>
+									<li>•	Experienced testing C/C++ source</li>
+									<li>•	Quality Control Circle </li>
+									<li>•	Coverage Master WinAMS </li>
+									<li>•	Basic Japanese Language </li>
+									<li>•	Project Management, Project Leader: (maximum of 10 modules per request sheet) </li>
+									<li>•	Group Leader: (group of three) </li>
+									<li>•	Basic Japanese Language </li>
+								</ul>
+							</div>
+						</div>
+
+					</section>
+			</div>
+			<div class="tab-pane" id="education" role="tabpanel" aria-labelledby="education-tab">
+				<h3 class="text-center">Educational Background & Work Experienced</h3>
+				<div class="timeline">
+					<div class="row py-2">
+						<div class="col-sm-6">
+							<h4 class="text-center">Educational Background</h4>
+						</div>
+						<div class="col-sm-6">
+							<h4 class="text-center">Work Experienced</h4>
+						</div>
+					</div>
+					<div class="Xcontainer left">
+						<div class="content">
+							<h5>480 HOURS INTENSIVE THREE MONTHS COURSE</h5>
+							<p>Tuitt Coding Bootcamp</p>
+							<p>Metro Manila, PH</p>
+						</div>
+					</div>
+					<div class="Xcontainer right">
+						<div class="content">
+							<h5>Denso Ten Solutions Philippines Corporation</h5>
+							<p>Software QA Engineer</p>
+							<p>January 2012 – August 2018</p>
+							<br>
+							<!-- <p>Responsibilities:
+								<ul>
+									<li id="PL">Project Leader ( March 2017 – March 2018)
+										<div class="hide">
+											<p>Project leader will be the in charge of the over-all progress including the productivity and quality of the projects. He / She will also negotiate the deadline of the projects to the supervisor.</p>
+										</div>
+
+									</li>
+									<li id="SGL">Sub Group Leader  (March 2016 – August 2018)</li>
+									<li id="STR">Senior Technical Reviewer (August 2014 – August 2018)</li>
+									<li id="PIC">Software Tester / Person in Charge (January 2012 – May 2017)</li>
+								</ul>
+							</p> -->
+							<ul class="collapsible">
+							<li>
+							<div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+							<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+							</li>
+							<li>
+							<div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+							<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+							</li>
+							<li>
+							<div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+							<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+							</li>
+							</ul>
+
+						</div>
+
+<!-- Project Leader ( March 2017 – March 2018)
+-	Project leader will be the in charge of the over-all progress including the productivity and quality of the projects. He / She will also negotiate the deadline of the projects to the customer
+Sub Group Leader  (March 2016 – August 2018)
+-	The role of the sub group leader is to maximize the capability and skill of his/her members while guiding and teaching them skills.
+Senior Technical Reviewer (August 2014 – August 2018)
+-	Ensure project's quality by reviewing the Person in Charge (PIC)'s output and ensure that all items are correctly inspected.
+Software Tester / Person in Charge (担当者) (January 2012 – May 2017)
+  -      Executes the Unit Testing.
+ -->
+					</div>
+					<div class="Xcontainer left">
+						<div class="content">
+							<h5>Bachelor of Science in Electronics Engineering (BSECE)</h5>
+							<p>Bulacan State University (BulSU)</p>
+							<p>Malolos, Bulacan</p>
+							<p>(S.Y. 2006-20011)</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="certification" role="tabpanel" aria-labelledby="certification-tab">
+				<h3 class="text-center">Certifications & Trainings</h3>
+				<section id="myskills" class="container p-2 m-3">
+						<div class="row">
+							<div class="col-sm-6">
+								<h4>Certifications</h4>
+								<ul>
+									<li class="text-danger"><i>•	Certificate from tuitt </i></li>
+									<li>•	Best in Quality (Person in Charge)</li>
+									<li>•	Most Improved DR2 (Technical Reviewer)</li>
+									<li>•	Best Reviewer (Technical Reviewer)</li>
+
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<h4>Trainings Attended</h4>
+								<ul>
+									<li>•	Tuitt Coding Boot camp</li>
+									<li>•	Basic C/C++ Training</li>
+									<li>•	Basic Matlab Design Training</li>
+									<li>•	Requirements Management and Functional Safety Standards</li>
+									<li>•	Quality Control Circle</li>
+									<li>•	Project Leader Training</li>
+									<li>•	Coverage Master WinAMs</li>
+									<li>•	Basic Japanese Language Training</li>
+								</ul>
+							</div>
+						</div>
+
+					</section>
+			</div>
+		</div>
 	</div>
 
 
