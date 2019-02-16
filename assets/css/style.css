@@ -829,6 +829,9 @@ small{
 
 
 @media only screen and (min-width: 401px) and (max-width: 960px){
+#navbar_index{
+	display: none;
+}
 
 	#portfolio .heading {
 		font-size: 18px;
