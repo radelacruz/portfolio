@@ -460,7 +460,7 @@ a:hover, a:focus {
 }
 
 #wwbtn{
-	top: 70px;
+	top: 75px;
 }
 
 #navbar-nav li a{
@@ -832,10 +832,10 @@ small{
 }
 
 
-@media only screen and (min-width: 401px) and (max-width: 1024px){
-#navbar_index{
+@media only screen and (min-width: 401px) and (max-width: 1023px){
+/*#navbar_index{
 	display: none;
-}
+}*/
 
 	#portfolio .heading {
 		font-size: 18px;
@@ -934,7 +934,120 @@ small{
 		height: 35px;
 		font-size: 20px;
 		margin-top: 0px;
-		top: 30px;
+		top: 20px;
+	}
+
+	#wwbtn{
+		top: 60px;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1215px){
+/*#navbar_index{
+	display: none;
+}*/
+
+	#portfolio .heading {
+		font-size: 18px;
+	}
+	#portfolio .description > * {
+		font-size: 75%;
+	}
+
+	#portfolio p {
+		margin-bottom: 5px;
+	}
+
+
+	.description .tools li {
+		margin-top: 2px;
+		margin-right: 2px;
+		padding: 2px;
+	}
+	#contact h5{
+		font-size: 16px !important;
+	}
+
+	#contact p,
+	#contact a{
+		font-size: 12px !important;
+	}
+	#inner{
+		height: 100%;
+		width: 100%;
+		padding: 0;
+	}
+
+	#section{
+		/*margin: 10vh 8vh 10vh 8vh;*/
+		margin: 0;
+		height: 40vh;
+		padding: 20px;
+		width: 100%;
+	}
+
+	#rightlanding{
+		padding: 180px 22px 50px 22px;
+		margin: 0;
+	}
+
+	#section_landing{
+		background-color: #ffac98;
+		font-weight: bold;
+		letter-spacing: 2px; 
+		padding-top: 100px;
+		margin: 10px;
+		height: 34.5vh;
+	}
+
+	#leftlanding{
+		padding: 0;
+	}
+	#landing_h1{
+		margin: 40px;
+		font-size: 65px;
+	}
+#nav_landing_text{
+	font-size: 40px;
+	padding-left: 15px;
+}
+
+.promo.image {
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+}
+
+#leftside_nav{
+	padding-top: 200px;
+}
+
+	.btn-2{
+		/*margin-left: 10px;*/
+		/*margin-top: 10px;*/
+		height: 50px;
+		font-size: 25px;
+	}
+
+
+	.Xcontainer h5,
+	.Xcontainer p,
+	.panel-collapse{
+		font-size: 80%;
+	}
+	.tab-content h4{
+
+		/*font-size: 100%;*/
+		font-size: 18px;
+	}
+	.btn-OK{
+		height: 45px;
+		margin-top: 0px;
+		top: 50px;
+	}
+	.btn-OK a{
+		font-size: 18px;
 	}
 
 	#wwbtn{
@@ -943,3 +1056,6 @@ small{
 
 }
 
+@media only screen and (min-width: 1215px) and (max-width: 1407px){
+
+}
