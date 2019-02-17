@@ -240,9 +240,33 @@ h3{
 	border-bottom: 3px solid #c3a663;
 	margin: 0 !important;
 }
-
 #project1{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+#project1-inside{
+	margin-bottom: 20px;
+}
+
+#project1-btn{
+	padding: 5px 150px; 
+}
+#project1-btn .btn-OK{
+	background-color: #fec9ba;
+	color: black;
+	border: 2px groove #c3a663;
+	margin-left: 0px;
+	margin-top: 50px;
+	height: 40px;
+	border-radius: 10px;
+	font-size: 20px !important;
+}
+
+#project1-btn .btn-OK:hover{
+	color: white;
+	border: 1px solid white;
+	background-color: #c3a663;
 }
 
 #portfolio_home{
@@ -369,7 +393,7 @@ h3{
 #portfolio .overlay {
 	position: relative;
 	padding-bottom: 0px;
-	min-height: 280px;
+	min-height: 320px;
  	overflow: auto;
 }
 
@@ -716,7 +740,7 @@ small{
   #inner{
   	background-color: #ffac98;
   	width: 100vw;
-  	height: 100vh;
+  	height: 100%;
   }
   #section{
 	margin: 0;
@@ -727,14 +751,14 @@ small{
 	#rightlanding{
 		padding: 100px 20px 50px 20px;
 		margin: 0;
-		width: 100vw;
+		width: 100%;
 	}
 	#section_landing{
 		font-weight: bold;
 		letter-spacing: 1.5px; 
 		padding-top: 40px;
 		margin: 10px;
-		height: 33vh;
+		height: 90%;
 	}
 	#landing_h1{
 		margin: 10px;
@@ -827,7 +851,12 @@ small{
 		font-size: 80%;
 	}
 
-
+	#project1-btn{
+		padding: 5px 50px; 
+	}
+	#project1-btn .btn-OK{
+		margin-top: 10px;
+	}
 
 }
 
@@ -871,7 +900,7 @@ small{
 	#section{
 		/*margin: 10vh 8vh 10vh 8vh;*/
 		margin: 0;
-		height: 40vh;
+		height: 50%;
 		padding: 20px;
 		width: 100%;
 	}
@@ -887,7 +916,7 @@ small{
 		letter-spacing: 2px; 
 		padding-top: 60px;
 		margin: 10px;
-		height: 33vh;
+		height: 95%;
 	}
 
 	#leftlanding{
@@ -941,6 +970,10 @@ small{
 		top: 60px;
 	}
 
+#project1-btn{
+	padding: 5px 50px; 
+}
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1215px){
@@ -982,7 +1015,7 @@ small{
 	#section{
 		/*margin: 10vh 8vh 10vh 8vh;*/
 		margin: 0;
-		height: 40vh;
+		height: 40%;
 		padding: 20px;
 		width: 100%;
 	}
@@ -998,7 +1031,7 @@ small{
 		letter-spacing: 2px; 
 		padding-top: 100px;
 		margin: 10px;
-		height: 34.5vh;
+		height: 95%;
 	}
 
 	#leftlanding{
@@ -1053,7 +1086,12 @@ small{
 	#wwbtn{
 		top: 80px;
 	}
-
+	#project1-btn{
+		padding: 5px 50px; 
+	}
+	#project1-btn .btn-OK{
+		margin-top: 10px;
+	}
 }
 
 @media only screen and (min-width: 1215px) and (max-width: 1407px){
