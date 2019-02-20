@@ -537,6 +537,11 @@ a:hover, a:focus {
 #contact_border{
 	border-right: 1px solid #c3a663;
 }
+
+#contact_border p{
+	margin-bottom: 0;
+}
+
 /*.footer-hr{
 	background-color: #c3a663 !important;
 	margin: 20px 40px;
