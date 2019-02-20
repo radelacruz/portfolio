@@ -20,6 +20,7 @@
 body{
 	background-color: #fec9ba;
 	/*padding: 0;*/
+	overflow-x: hidden;
 }
 #section{
 	margin: 10vh 20vh 10vh 20vh;
